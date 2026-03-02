@@ -15,7 +15,6 @@ This project analyzes e-commerce transaction data to:
 - Generate personalized product recommendations using **User-Based Collaborative Filtering**
 - Provide an interactive dashboard via **Streamlit**
 
----
 
 ## Methodology
 
@@ -29,7 +28,6 @@ RFM metrics were calculated per customer:
 
 These features summarize customer engagement and value.
 
----
 
 ### 2️. Feature Scaling
 
@@ -49,7 +47,6 @@ Outputs:
 - `Cluster` column added to RFM dataset
 - Customer groups representing different behavioral patterns
 
----
 
 ### 4️. KDE Anomaly Detection
 
@@ -61,7 +58,6 @@ Outputs:
 **Why outliers were not removed?**
 Outliers may represent high-value or unique customers, which are important for business strategy.
 
----
 
 ### 5️. PCA (Principal Component Analysis)
 
@@ -76,7 +72,6 @@ Outputs:
 
 PCA is used only for visualization, not for clustering.
 
----
 
 ### 6️. Recommendation System
 
@@ -86,7 +81,6 @@ A **User-Based Collaborative Filtering** approach was implemented:
 - Cosine similarity used via k-Nearest Neighbors
 - Recommends products based on similar users' purchases
 
----
 
 ### 7. Streamlit Web Application
 
@@ -107,7 +101,6 @@ The final app includes:
    - KDE anomaly detection visualization
    - Cluster distribution bar chart with labels
 
----
 
 ## Technologies Used
 
@@ -121,7 +114,6 @@ The final app includes:
 - Plotly (optional interactive visuals)
 - Streamlit
 
----
 
 ## Project Structure
 
