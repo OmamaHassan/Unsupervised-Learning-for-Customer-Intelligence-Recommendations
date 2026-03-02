@@ -2,6 +2,9 @@
 
 A complete end-to-end data science project that performs **RFM-based customer segmentation**, **K-Means clustering**, **KDE anomaly detection**, **PCA visualization**, and **collaborative filtering product recommendations**, deployed through an interactive **Streamlit web application**.
 
+## Dataset Source
+Kaggle - Brazilian E-Commerce Public Dataset by Olist
+
 ---
 
 ## Project Overview
