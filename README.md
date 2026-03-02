@@ -119,8 +119,8 @@ The final app includes:
 
 ```
 ├── data/
-├── Analysis.ipynb
-├── streamlit_app.py
+├── Analysis.ipynb # Detailed analysis, training and evaluation
+├── streamlit_app.py 
 ├── rfm_processed.csv
 ├── df_encoded.csv
 ├── user_item_sparse.npz
