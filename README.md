@@ -71,8 +71,6 @@ Outputs:
 - `PC1`
 - `PC2`
 
-PCA is used only for visualization, not for clustering.
-
 
 ### 6️. Recommendation System
 
