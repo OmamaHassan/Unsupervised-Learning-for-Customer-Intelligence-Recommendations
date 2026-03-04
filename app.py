@@ -152,7 +152,7 @@ with tab3:
     st.subheader("Cluster Distribution (Bar Plot)")
 
     fig, ax = plt.subplots(figsize=(6,4))
-    sns.countplot(x='Cluster', data=rfm, palette='Set2', ax=ax)
+    sns.countplot(x='Cluster', data=rfm, palette='Set1', ax=ax)
     ax.set_title("Number of Customers per Cluster")
 
     # Add numbers above each bar
