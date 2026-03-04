@@ -5,7 +5,6 @@ A complete end-to-end data science project that performs **RFM-based customer se
 ## Dataset Source
 Kaggle - Brazilian E-Commerce Public Dataset by Olist
 
----
 
 ## Project Overview
 
@@ -40,7 +39,6 @@ Scaling was applied to normalize feature ranges before clustering and anomaly de
 - Ensures no feature dominates due to larger numerical magnitude.
 - Improves clustering performance.
 
----
 
 ### 3️. K-Means Clustering
 
