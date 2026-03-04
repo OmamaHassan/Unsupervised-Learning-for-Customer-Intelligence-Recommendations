@@ -86,9 +86,9 @@ with tab1:
     
     # Display full RFM row with units
     customer_rfm_display = customer_rfm.rename(columns={
-        'Recency':'Recency (Days)',
-        'Frequency':'Frequency (Orders)',
-        'Monetary':'Monetary (Currency)',
+        'Recency':'Recency',
+        'Frequency':'Frequency',
+        'Monetary':'Monetary',
         'Cluster':'Cluster',
         'Anomaly_KDE':'Anomaly Flag'
     })
