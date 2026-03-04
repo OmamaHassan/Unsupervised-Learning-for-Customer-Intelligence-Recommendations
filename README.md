@@ -119,9 +119,10 @@ The final app includes:
 ```
 ├── data/
 ├── Analysis.ipynb # Detailed analysis, training and evaluation
-├── app.py 
-├── rfm_processed.csv
+├── app.py
 ├── df_encoded.csv
+├── product_mapping.pkl
+├── rfm_processed.csv
 ├── user_item_sparse.npz
 ├── README.md
 
